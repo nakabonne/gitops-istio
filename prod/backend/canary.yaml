@@ -28,9 +28,9 @@ spec:
   skipAnalysis: false
   analysis:
     # schedule interval (default 60s)
-    interval: 15s
+    interval: 30s
     # max number of failed metric checks before rollback
-    threshold: 10
+    threshold: 1
     # max traffic percentage routed to canary
     # percentage (0-100)
     maxWeight: 50
